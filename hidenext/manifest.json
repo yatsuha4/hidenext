@@ -1,0 +1,14 @@
+{
+    "name": "HideNext", 
+    "version": "0.1", 
+    "manifest_version": 2, 
+    "description": "Amazon Prime Video 再生中の「次の〜」表示を消します。", 
+    "content_scripts": [{
+        "matches": [
+            "https://www.amazon.co.jp/gp/video/*"
+        ], 
+        "css": [
+            "content.css"
+        ]
+    }]
+}

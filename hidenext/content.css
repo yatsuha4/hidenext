@@ -1,0 +1,8 @@
+/*
+.gradientOverlay, .pausedOverlay {
+    background: transparent !important;
+}
+*/
+.nextUpWrapper, .nextUpContents {
+    display: none;
+}
